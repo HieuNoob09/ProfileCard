@@ -1,0 +1,204 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.iPhone11-pro-max {
+    left: 512px;
+    position: relative;
+    background: ghostwhite;
+    width: 414px;
+    height: 896px;
+    border-radius: 20px;
+}
+
+.iPhone11-pro-max img {
+    object-fit: cover;
+    position: absolute;
+    width: 155px;
+    height: 150px;
+    left: 50%;
+    transform: translate(-50%, 20px);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.iPhone11-pro-max img:hover {
+    box-shadow: 7px 7px 10px rgba(39, 39, 39, 0.25);
+}
+
+.username {
+    box-shadow: 0px 5px 4px rgba(49, 49, 49, 0.25);
+    box-sizing: border-box;
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 35px;
+    top: 229px;
+    border: 1px solid #757575;
+    border-radius: 25px;
+}
+
+.male-female {
+    box-shadow: 0px 5px 4px rgba(49, 49, 49, 0.25);
+    box-sizing: border-box;
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 35px;
+    top: 329px;
+    border: 1px solid #757575;
+    border-radius: 25px;
+}
+
+.phonenumber {
+    box-shadow: 0px 5px 4px rgba(49, 49, 49, 0.25);
+    box-sizing: border-box;
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 35px;
+    top: 429px;
+    border: 1px solid #757575;
+    border-radius: 25px;
+}
+
+.email {
+    box-shadow: 0px 5px 4px rgba(49, 49, 49, 0.25);
+    box-sizing: border-box;
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 35px;
+    top: 529px;
+    border: 1px solid #757575;
+    border-radius: 25px;
+}
+
+.password {
+    box-shadow: 0px 5px 4px rgba(49, 49, 49, 0.25);
+    box-sizing: border-box;
+    position: absolute;
+    width: 340px;
+    height: 50px;
+    left: 35px;
+    top: 629px;
+    border: 1px solid #757575;
+    border-radius: 25px;
+}
+
+input[type="text"] {
+    padding-left: 16px;
+}
+
+button {
+    border: unset;
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    left: 120px;
+    top: 730px;
+    background: orange;
+    color: white;
+    box-shadow: 0px 5px 4px rgba(255, 124, 156, 0.25);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: orangered
+}
+
+p {
+    position: absolute;
+    width: 237px;
+    height: 20px;
+    left: 87px;
+    top: 838px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: 0.7px;
+}
+
+.inputUsername input[type=text] {
+    padding-left: 40px;
+}
+
+.inputUsername {
+    position: relative;
+}
+
+.inputUsername i {
+    position: absolute;
+    left: 42px;
+    top: 237px;
+    padding: 9px 8px;
+}
+
+.inputMale-Female input[type=text] {
+    padding-left: 40px;
+}
+
+.inputMale-Female {
+    position: relative;
+}
+
+.inputMale-Female i {
+    position: absolute;
+    left: 42px;
+    top: 337px;
+    padding: 9px 8px;
+}
+
+.inputPhonenumber input[type=text] {
+    padding-left: 40px;
+}
+
+.inputPhonenumber {
+    position: relative;
+}
+
+.inputPhonenumber i {
+    position: absolute;
+    left: 42px;
+    top: 437px;
+    padding: 9px 8px;
+}
+
+.inputEmail input[type=text] {
+    padding-left: 40px;
+}
+
+.inputEmail {
+    position: relative;
+}
+
+.inputEmail i {
+    position: absolute;
+    left: 42px;
+    top: 537px;
+    padding: 9px 8px;
+}
+
+.inputPassword input[type=text] {
+    padding-left: 40px;
+}
+
+.inputPassword {
+    position: relative;
+}
+
+.inputPassword i {
+    position: absolute;
+    left: 42px;
+    top: 637px;
+    padding: 9px 8px;
+}
